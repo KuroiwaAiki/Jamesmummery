@@ -28,7 +28,7 @@ const projectsMain = [
     {
     imageUrl: Portfolio,
     name: "portfolio",
-    link: "https://kuroiwaaiki.github.io/Jamesmummery/",
+    link: "https://github.com/KuroiwaAiki/Jamesmummery",
     title: "Portfolio - Built with React & Material UI",
     description: "Core Tech: React Material UI React Router Babel Webpack Node.js Javascript ES6 CSS3 HTML5",
     type: "backend",
