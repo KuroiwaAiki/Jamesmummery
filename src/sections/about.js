@@ -38,7 +38,9 @@ export default function About(){
                         </Grid>
                         <Grid item md={8} xs={10} >
                             <Typography variant="body1" className={classes.gridRight}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                            Hi, I'm James and I’m passionate about thinking strategically to figure out the why and how to solve complex challenges and turn them into elegantly simple solutions. 
+                            I'm a Full Stack Developer and recent graduate of Complete Web Development Bootcamp. 
+                            Expertise in web and progressive web app development using React, JavaScript, CSS, HTML, Node.js, Express, MongoDB and more. 
                             </Typography>
                         </Grid>
                     </Grid>
