@@ -4,6 +4,8 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import cyan from '@material-ui/core/colors/cyan';
 import orange from '@material-ui/core/colors/orange';
 
+import smoothscroll from 'smoothscroll-polyfill';
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -47,6 +49,8 @@ export default function App(props){
             fontFamily: '"Work Sans", "Roboto", "Helvetica", "Arial",  sans-serif',
         }
     });
+
+    smoothscroll.polyfill();
 
     const handleClick = () => {
             setTimeout(() => {

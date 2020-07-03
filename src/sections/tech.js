@@ -24,13 +24,15 @@ import bootstrap from "./../images/tech/bootstrap.svg"
 function Tech(){    
     const theme = useTheme();
     console.log(theme);
-    return (
+    return ( 
+    
+    <div>
         <Grid container justify="center" style={{padding: "4%"}}>
-        <Grid item xs={12} style={{paddingBottom: "4%"}}>
-            <Typography id="favtech" variant="h2" style={{paddingBottom: "4%"}}>
-                Tools I Use
-            </Typography>
-        </Grid>
+            <Grid item xs={12} style={{paddingBottom: "4%"}}>
+                <Typography id="favtech" variant="h2" style={{paddingBottom: "4%"}}>
+                    Tools I Use
+                </Typography>
+            </Grid>
             <Paper id="paper" elevation={8} style={{padding: "4%"}}>
                 <Grid container justify="center" spacing={6} style={{padding:"4%", alignItems: "center"}}>
                     <Grid item lg={2} md={3} xs={4} >
@@ -65,8 +67,9 @@ function Tech(){
                     </Grid>
                 </Grid>
             </Paper>
-        
         </Grid>
+    </div>
+        
     )
 }
 
