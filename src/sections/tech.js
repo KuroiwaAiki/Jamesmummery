@@ -4,21 +4,22 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 
-import nodejsLight from "./../images/tech/nodejs-light.png"
-import nodejsDark from "./../images/tech/nodejs-dark.png"
-import mongoDBLight from "./../images/tech/mongodb-light.png"
-import mongoDBDark from "./../images/tech/mongodb-dark.png"
-import octocat from "./../images/tech/octocat.png"
-import expressLight from "./../images/tech/express-light.png"
-import expressDark from "./../images/tech/express-dark.png"
-import mailchimpLight from "./../images/tech/mailchimp-light.png"
-import mailchimpDark from "./../images/tech/mailchimp-dark.png"
-import materialUI from "./../images/tech/material-ui.svg"
-import postman from "./../images/tech/postman.svg"
+import nodejsLight from "./../images/tech/nodejs-light.png";
+import nodejsDark from "./../images/tech/nodejs-dark.png";
+import mongoDBLight from "./../images/tech/mongodb-light.png";
+import mongoDBDark from "./../images/tech/mongodb-dark.png";
+import octocat from "./../images/tech/octocat.png";
+import wordPress from "./../images/tech/wordpress.png";
+import expressLight from "./../images/tech/express-light.png";
+import expressDark from "./../images/tech/express-dark.png";
+import mailchimpLight from "./../images/tech/mailchimp-light.png";
+import mailchimpDark from "./../images/tech/mailchimp-dark.png";
+import materialUI from "./../images/tech/material-ui.svg";
+import postman from "./../images/tech/postman.svg";
 
-import heroku from "./../images/tech/heroku.png"
-import react from "./../images/tech/react.png"
-import bootstrap from "./../images/tech/bootstrap.svg"
+import heroku from "./../images/tech/heroku.png";
+import react from "./../images/tech/react.png";
+import bootstrap from "./../images/tech/bootstrap.svg";
 
 
 function Tech(){    
@@ -52,6 +53,9 @@ function Tech(){
                     </Grid>
                     <Grid item lg={2} md={3} xs={4} >
                         <img src={octocat} alt="github logo" width="100%"/>
+                    </Grid>
+                    <Grid item lg={2} md={3} xs={4} >
+                        <img src={wordPress} alt="wordpress logo" width="100%"/>
                     </Grid>
                     <Grid item lg={2} md={3} xs={4} >
                         <img src={theme.palette.type === "light" ? expressLight : expressDark} alt="express logo" width="100%"/>

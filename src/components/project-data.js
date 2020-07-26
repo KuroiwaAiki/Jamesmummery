@@ -1,3 +1,4 @@
+import SurgeSounds from "./../images/projects/surge-sounds.jpg";
 import KeeperApp from "./../images/projects/keeper-app.png";
 import ToDoList from "./../images/projects/todolist.png";
 import Portfolio from "./../images/projects/portfolio.png";
@@ -9,6 +10,14 @@ import FourCard from "./../images/projects/four-card.jpg";
 import SignUpForm from "./../images/projects/sign-up-form.jpg";
 
 const projectsMain = [
+    {
+    imageUrl: SurgeSounds,
+    name: "surge sounds website",
+    link: "https://surgesounds.com/",
+    title: "Surge Sounds - Built with WordPress & React",
+    description: "Core Tech: WordPress PHP React Babel Javascript ES6 CSS3 HTML5",
+    type: "frontend",
+    },
     {
     imageUrl: KeeperApp,
     name: "four card feature section landing page",
