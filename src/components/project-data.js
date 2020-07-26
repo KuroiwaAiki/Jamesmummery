@@ -59,14 +59,6 @@ const projectsMain = [
     type: "backend",
     },
     {
-    imageUrl: Secrets,
-    name: "secrets landing page",
-    link: "https://kuroiwa-secrets.herokuapp.com/",
-    title: "Secrets - Built with Express & Google / Facebook OAuth",
-    description: "Core Tech: MongoDB Mongoose Express Heroku Bootstrap EJS Node.js Passport Body Parser Javascript ES6 CSS3 HTML5",
-    type: "backend",
-    },
-    {
     imageUrl: BaseApparel,
     name: "base apparel",
     link: "https://kuroiwaaiki.github.io/Base-Apparel-landing-page/",
@@ -89,6 +81,14 @@ const projectsMain = [
     title: "JS Form Authentication",
     description: "Core Tech: Javascript ES6 CSS3 HTML5",
     type: "frontend",
+    },
+    {
+    imageUrl: Secrets,
+    name: "secrets landing page",
+    link: "https://kuroiwa-secrets.herokuapp.com/",
+    title: "Secrets - Built with Express & Google / Facebook OAuth",
+    description: "Core Tech: MongoDB Mongoose Express Heroku Bootstrap EJS Node.js Passport Body Parser Javascript ES6 CSS3 HTML5",
+    type: "backend",
     },
 ]
 
